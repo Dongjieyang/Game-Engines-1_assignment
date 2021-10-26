@@ -10,5 +10,8 @@ Description:You must have looked up at the stars at night. Have you ever thought
 
 Proud of in the assignment:Restore as much as possible and combine the elements of the universe and electronic music to create a novel style.
 
-Reference picture:
+Reference:
 ![An image](space.jpg)  
+https://www2.kek.jp/ilc/ja/clarification/
+![An image](space2.jpg)  
+https://president.jp/articles/-/46378?page=1
