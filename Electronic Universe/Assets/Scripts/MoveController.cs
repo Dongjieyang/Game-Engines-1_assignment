@@ -20,6 +20,7 @@ public class MoveController : MonoBehaviour
     void Update()
     {
         transform.Translate(0, 0, Input.GetAxis("Vertical") * speed * Time.deltaTime);
+        transform.Translate(0, Input.GetAxis ("Horizontal")*speed*Time.deltaTime, 0);
         mouseX = Input.GetAxis("Mouse X") * mouseSpeed * Time.deltaTime;
         mouseY = Input.GetAxis("Mouse Y") * mouseSpeed * Time.deltaTime;
 
