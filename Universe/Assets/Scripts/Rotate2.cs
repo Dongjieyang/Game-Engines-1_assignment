@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Rotate2 : MonoBehaviour
 {
-    public float rotSpeed;
+    public float G;
     public GameObject pivotObject;
     public float xRot, yRot;
     void Start()
@@ -14,7 +14,19 @@ public class Rotate2 : MonoBehaviour
 
     // Update is called once per frame
     void Update()
+
     {
-        transform.RotateAround(pivotObject.transform.position, new Vector3(xRot, yRot, 0), rotSpeed * Time.deltaTime);
+        Velocity();
+        
+    }
+
+    void Velocity()
+    {
+        float m = pivotObject.GetComponent<Rigidbody>().mass;
+        float r = Vector3.Distance(pivotObject.transform.position, this.transform.position);
+
+
+        transform.RotateAround(pivotObject.transform.position, new Vector3(xRot, yRot, 0), Mathf.Sqrt((G * m) / r) * Time.deltaTime);
+
     }
 }

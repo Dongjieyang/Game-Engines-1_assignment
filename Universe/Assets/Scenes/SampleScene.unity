@@ -220,7 +220,7 @@ Transform:
   m_LocalScale: {x: 50, y: 50, z: 50}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &17627751
 MonoBehaviour:
@@ -234,7 +234,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42be268ba8c71084f97dd3357511cac5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotSpeed: 25
+  G: 10
   pivotObject: {fileID: 402408841}
   xRot: 0.015
   yRot: 1
@@ -5269,7 +5269,7 @@ Transform:
   - {fileID: 273518030}
   - {fileID: 849614040}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &148413835
 MonoBehaviour:
@@ -5283,7 +5283,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42be268ba8c71084f97dd3357511cac5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotSpeed: 20
+  G: 10
   pivotObject: {fileID: 402408841}
   xRot: 0.03
   yRot: 1
@@ -10326,7 +10326,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42be268ba8c71084f97dd3357511cac5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotSpeed: 45
+  G: 10
   pivotObject: {fileID: 402408841}
   xRot: 0.07
   yRot: 1
@@ -15271,6 +15271,7 @@ GameObject:
   - component: {fileID: 402408843}
   - component: {fileID: 402408842}
   - component: {fileID: 402408846}
+  - component: {fileID: 402408847}
   m_Layer: 0
   m_Name: Sun
   m_TagString: Untagged
@@ -15368,6 +15369,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotSpeed: 5
+--- !u!54 &402408847
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 402408841}
+  serializedVersion: 2
+  m_Mass: 3330
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &431857361
 GameObject:
   m_ObjectHideFlags: 0
@@ -20199,6 +20216,7 @@ GameObject:
   - component: {fileID: 434190173}
   - component: {fileID: 434190174}
   - component: {fileID: 434190175}
+  - component: {fileID: 434190176}
   m_Layer: 0
   m_Name: Earth
   m_TagString: Untagged
@@ -20279,8 +20297,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 30, z: -141}
   m_LocalScale: {x: 20, y: 20, z: 20}
-  m_Children:
-  - {fileID: 1619749289}
+  m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -20296,7 +20313,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42be268ba8c71084f97dd3357511cac5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotSpeed: 40
+  G: 10
   pivotObject: {fileID: 402408841}
   xRot: 0
   yRot: 1
@@ -20355,7 +20372,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 200
+  m_Time: 20
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 1
@@ -20412,6 +20429,22 @@ TrailRenderer:
   m_MinVertexDistance: 0.1
   m_Autodestruct: 0
   m_Emitting: 1
+--- !u!54 &434190176
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 434190168}
+  serializedVersion: 2
+  m_Mass: 3300
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &489245924
 GameObject:
   m_ObjectHideFlags: 0
@@ -54541,7 +54574,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42be268ba8c71084f97dd3357511cac5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotSpeed: 55
+  G: 10
   pivotObject: {fileID: 402408841}
   xRot: 0.15
   yRot: 1
@@ -59570,7 +59603,7 @@ Transform:
   m_LocalScale: {x: 25, y: 25, z: 25}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1063520322
 MonoBehaviour:
@@ -59597,7 +59630,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42be268ba8c71084f97dd3357511cac5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotSpeed: 10
+  G: 10
   pivotObject: {fileID: 402408841}
   xRot: 0.4
   yRot: -1
@@ -59797,7 +59830,7 @@ Transform:
   m_LocalScale: {x: 30, y: 30, z: 30}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1082908048
 MonoBehaviour:
@@ -59811,7 +59844,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42be268ba8c71084f97dd3357511cac5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotSpeed: 15
+  G: 10
   pivotObject: {fileID: 402408841}
   xRot: 0.01
   yRot: 1
@@ -74519,7 +74552,7 @@ Transform:
   m_LocalScale: {x: 13, y: 13, z: 13}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1220949679
 MonoBehaviour:
@@ -74533,7 +74566,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42be268ba8c71084f97dd3357511cac5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotSpeed: 35
+  G: 10
   pivotObject: {fileID: 402408841}
   xRot: 0.02
   yRot: 1
@@ -103558,6 +103591,7 @@ GameObject:
   - component: {fileID: 1619749291}
   - component: {fileID: 1619749290}
   - component: {fileID: 1619749293}
+  - component: {fileID: 1619749294}
   m_Layer: 0
   m_Name: Moon
   m_TagString: Untagged
@@ -103573,11 +103607,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1619749288}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0.71500015}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
+  m_LocalPosition: {x: 0, y: 30, z: -155.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 434190172}
-  m_RootOrder: 0
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!135 &1619749290
 SphereCollider:
@@ -103741,6 +103775,22 @@ TrailRenderer:
   m_MinVertexDistance: 0.1
   m_Autodestruct: 0
   m_Emitting: 1
+--- !u!114 &1619749294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1619749288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42be268ba8c71084f97dd3357511cac5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  G: 10
+  pivotObject: {fileID: 434190168}
+  xRot: 0
+  yRot: 1
 --- !u!1 &1666845382
 GameObject:
   m_ObjectHideFlags: 0
@@ -108603,7 +108653,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1914452917
 GameObject:
@@ -108652,7 +108702,7 @@ Transform:
   - {fileID: 25060997}
   - {fileID: 955697520}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1934804010
 GameObject:
