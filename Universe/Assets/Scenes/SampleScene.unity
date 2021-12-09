@@ -293,7 +293,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 20
+  m_Time: 60
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 1
@@ -5342,7 +5342,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 20
+  m_Time: 60
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 1
@@ -10385,7 +10385,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 20
+  m_Time: 40
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 1
@@ -15285,7 +15285,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: be581291c47a76d40b13e4e48e87561a, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -20498,7 +20498,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 20
+  m_Time: 45
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 1
@@ -39848,7 +39848,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 0.8272907, b: 0.63584906, a: 1}
-  m_Intensity: 0.5
+  m_Intensity: 0.4
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -54387,7 +54387,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_Enabled: 0
+  m_Enabled: 1
 --- !u!20 &963194227
 Camera:
   m_ObjectHideFlags: 0
@@ -54743,7 +54743,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 20
+  m_Time: 35
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 1
@@ -59786,7 +59786,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 20
+  m_Time: 80
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 1
@@ -60013,7 +60013,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 20
+  m_Time: 70
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 1
@@ -74735,7 +74735,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 20
+  m_Time: 50
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 1
@@ -103828,7 +103828,7 @@ TrailRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Time: 20
+  m_Time: 45
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 1
